@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const StatefulForm = () => {
-    const [name,setName] = useState('');
+    const [name,setName] = useState('Rojoni klanto');
     const [email,setEmail] = useState(null);
     const [password,setPassword] = useState(null);
     const [error,setError] = useState('');
